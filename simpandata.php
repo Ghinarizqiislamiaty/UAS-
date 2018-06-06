@@ -25,9 +25,9 @@
               <hr class="star-dark mb-5">
 				  <?php
 					$server = "localhost";
-					$username = "root";
-					$password = "";
-					$db = "uas_4c";
+					$username = "id6084634_uas_web";
+					$password = "14bismillah";
+					$db = "id6084634_uas_web";
 
 					$koneksi = new mysqli($server, $username, $password, $db);
 					if($koneksi->connect_error) {
