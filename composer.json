@@ -1,0 +1,15 @@
+{
+    "name": "ghinarizqi/uas_web", 
+    "type": "project",
+    "authors": [
+        {
+            "name": "ghina",
+            "email": "ghina.rizqi14@gmail.com",
+            "role": "programmer"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "version": "0.5"
+}
