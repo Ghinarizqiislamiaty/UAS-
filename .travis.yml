@@ -2,7 +2,7 @@ language: php
 
 env:
   global:
-    - 'FTP_USER=ghinarizqi'
+    - 'FTP_USER=uasgina'
     - 'FTP_PASS=14bismillah'
 
 script:
@@ -12,9 +12,8 @@ script:
   # script upload file *.php
   - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
   - "curl -T input.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
-  - "curl -T simpan-baru.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T simpandata.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
   - "curl -T form-edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
   - "curl -T update.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
   - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
-  - "curl -T main.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
-  - "curl -T halo.php -u $FTP_USER:$FTP_PASSWORD ftp://files.000webhost.com/public_html/"
+  - "curl -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://files.000webhost.com/public_html/"
